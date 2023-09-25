@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tela 03 </title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <canvas id="barra_top"></canvas>
+        <canvas id="quadrado"></canvas>
+        <p id="inscrevase"> <span style="color: #ffffff; text-shadow: 1px 1px 0 black;">I</span>nscreva-se </p>
+
+        <form action="" id="form_inscrever">
+            <label for="" id="label_nome" class="label"> Nome: </label> <br>
+            <input type="text" name="" id="input_nome" class="input"> <br>
+            <label for="" id="label_email" class="label"> Email: </label> <br>
+            <input type="email" name="" id="input_email" class="input"> <br>
+            <label for="" id="label_senha" class="label"></label> <br>
+            <input type="password" id="input_password" class="input">
+
+            <img src="img/esconder.svg" alt="" id="olho">
+            <label for="" class="label" id="label_cep"> CEP: </label>
+            <label for="" id="label_numero" class="label"> Número: </label> <br>
+            <div class="teste">
+                <input type="text" class="input" id="input_cep">
+                <input type="text" class="input" id="input_num">
+            </div>
+
+            <label for="" class="label"> Rua: </label> <br>
+            <input type="text" class="input" id="input_rua">
+
+            <label for="" class="label" id="label_cidade"> Cidade: </label>
+            <select name="" id="select_cidade" class="select_cidade input">
+                <option value=""> Selecione uma cidade: </option>
+                <option value="saopaulo"> São Paulo </option>
+                <option value="rj"> Rio de Janeiro </option>
+                <option value="uberlandia"> Uberlandia </option>
+            </select>
+
+            <div class="termos">
+                <input type="checkbox" name="" id="checkbox" class="">
+                <p id="p_termos"> Concordo com os termos e condições </p>
+            </div>
+            <div class="btn">
+                <input type="submit" value="Enviar" id="cadastrar">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
